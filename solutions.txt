@@ -19,6 +19,6 @@
 17.SELECT * FROM Products WHERE discontinued = 0 AND units_in_stock < 10;
 18.SELECT MAX(unit_price )AS HighestPrice, MIN(unit_price) AS LowestPrice FROM Products
 19.SELECT * FROM orders WHERE order_date = '1997-05-05';
-20.
+20.SELECT product_name, quantity_per_unit FROM products;
 21.
 22.
