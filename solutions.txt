@@ -10,7 +10,7 @@
 8.SELECT AVG(unit_price) FROM Products;
 9.SELECT SUM(unit_price) FROM order_details WHERE product_id = 50;
 10.SELECT COUNT(DISTINCT category_id) FROM Products;
-11.
+11.SELECT * FROM Products WHERE discontinued = 1;
 12.
 13.
 14.
