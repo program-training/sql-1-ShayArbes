@@ -17,7 +17,7 @@
 15.SELECT AVG(age)FROM (SELECT EXTRACT(YEAR FROM CURRENT_DATE) - EXTRACT(YEAR FROM birth_date) AS age FROM employees)
 16.SELECT * FROM customers WHERE phone LIKE '%123%';
 17.SELECT * FROM Products WHERE discontinued = 0 AND units_in_stock < 10;
-18.
+18.SELECT MAX(unit_price )AS HighestPrice, MIN(unit_price) AS LowestPrice FROM Products
 19.
 20.
 21.
