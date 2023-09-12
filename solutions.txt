@@ -8,7 +8,7 @@
 6.SELECT * FROM Employees WHERE EXTRACT(YEAR FROM birth_date) < 1960;
 7.SELECT * FROM Products WHERE units_in_stock = 0;
 8.SELECT AVG(unit_price) FROM Products;
-9.
+9.SELECT SUM(unit_price) FROM order_details WHERE product_id = 50;
 10.
 11.
 12.
